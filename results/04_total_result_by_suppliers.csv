@@ -1,0 +1,6 @@
+"supplier_name","supplier_type","city","avg_delivery_days","payment_terms","purchases_count","unique_flowers_count","total_stems_purchased","total_sum_purchases","avg_price_per_stem","count_of_stems_write_off","count_write_off_share"
+Ural Flowers Wholesale,local wholesaler,Yekaterinburg,1,postpayment,765,17,95431,7189582.00,75.34,3511,0.0368
+Ecuador Direct Import,direct import,Quito,5,prepayment,212,5,29297,2885076.00,98.48,1430,0.0488
+Moscow Flower Hub,federal warehouse,Moscow,2,partial prepayment,871,25,95993,9071664.00,94.50,5168,0.0538
+Dutch Line Flowers,direct import,Amsterdam,4,prepayment,338,8,13621,2808480.00,206.19,872,0.0640
+Spring Tulip Farm,seasonal farm,Krasnodar,3,postpayment,118,6,12048,856335.00,71.08,1120,0.0930

@@ -1,0 +1,31 @@
+"bouquet_id","bouquet_name","bouquet_category","retail_price","bouquet_cost","margin","margin_part"
+8,White Wedding Bouquet,wedding,8300.00,2609,5691.00,69
+20,Wedding Peony,wedding,10150.00,3189,6960.67,69
+29,Small Wedding Set,wedding,10200.00,3233,6967.00,68
+14,Romantic Spray Roses,author,5850.00,1978,3872.00,66
+6,Pastel Author Bouquet,author,8000.00,2691,5308.50,66
+7,Bright Birthday Mix,author,4250.00,1503,2746.83,65
+24,Lily Elegance,author,5400.00,1907,3493.00,65
+17,Minimal White Bouquet,author,4800.00,1677,3123.00,65
+30,Just Because Mix,author,4700.00,1704,2995.67,64
+10,Orchid Premium Box,premium,5100.00,1826,3274.50,64
+19,Premium Exotic,premium,8600.00,3116,5483.75,64
+18,Budget Compliment,mono,1650.00,601,1049.00,64
+26,Ranunculus Tenderness,premium,7300.00,2633,4667.50,64
+9,Hydrangea Cloud,premium,6300.00,2279,4020.75,64
+22,Roses and Hypericum,author,5800.00,2106,3693.83,64
+16,New Year Winter Box,seasonal,6600.00,2409,4190.92,63
+5,Peony Dream,premium,7800.00,2881,4919.00,63
+27,Iris Spring Bouquet,seasonal,5000.00,1900,3100.17,62
+13,Lavender Provence,seasonal,4200.00,1581,2618.75,62
+3,Tender Tulips 25,seasonal,4000.00,1537,2462.67,62
+4,Spring Mix,seasonal,4350.00,1702,2647.50,61
+21,Lilac Matthiola Mix,seasonal,4350.00,1685,2665.46,61
+12,Sunflower Mood,seasonal,3650.00,1425,2225.50,61
+15,First Bell Bouquet,seasonal,3700.00,1429,2271.50,61
+23,Chrysanthemum Family Bouquet,mono,2850.00,1122,1728.50,61
+25,Gerbera Smile,mono,3850.00,1546,2304.00,60
+28,Business Reception Set,corporate,5500.00,2177,3322.75,60
+2,Pink Roses 21,mono,5450.00,2229,3221.00,59
+11,Corporate Classic,corporate,3200.00,1349,1850.58,58
+1,Classic Red Roses 25,mono,7200.00,3011,4188.67,58

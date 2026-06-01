@@ -1,0 +1,26 @@
+"flower_name","flower_category","shelf_life_days","sum_of_purchases","sum_of_stems","write_off_rate"
+Peony,premium flower,4,3679,434,0.1180
+Tulip,bulb flower,5,28398,3043,0.1072
+Ranunculus,premium flower,4,1430,151,0.1056
+Matthiola,seasonal flower,5,1202,104,0.0865
+Hydrangea,premium flower,5,1769,136,0.0769
+Iris,bulb flower,5,9872,671,0.0680
+Ecuador Red Rose,rose,7,17398,1110,0.0638
+Spray Rose,rose,6,7805,494,0.0633
+Kenya Pink Rose,rose,7,19794,1201,0.0607
+Gerbera,gerbera,6,18848,1102,0.0585
+Lily,lily,7,1790,86,0.0480
+Eustoma,premium flower,6,12492,600,0.0480
+Sunflower,seasonal flower,5,2100,89,0.0424
+Gypsophila,filler,10,9851,309,0.0314
+Hypericum,berry/filler,12,4445,133,0.0299
+Alstroemeria,alstroemeria,9,19621,551,0.0281
+Chrysanthemum,chrysanthemum,12,22234,572,0.0257
+Carnation,carnation,10,25437,625,0.0246
+Ruscus,greenery,18,14780,287,0.0194
+Statice,dried/filler,14,5267,100,0.0190
+Eucalyptus,greenery,14,12754,228,0.0179
+Protea,exotic flower,10,608,10,0.0164
+Cotton Flower,dried/filler,30,2884,42,0.0146
+Phalaenopsis Orchid,orchid,14,1255,16,0.0127
+Lavender,dried/filler,20,677,7,0.0103
