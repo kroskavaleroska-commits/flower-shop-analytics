@@ -194,27 +194,27 @@ The weakest link in the product range. It is worth paying attention to them, it 
 
 ### Executive Summary
 
-![Executive Summary](images/executive_summary.png)
+![Executive Summary](images/executive_summary.PNG)
 
 ### Sales Channels
 
-![Sales Channels](images/sales_channels.png)
+![Sales Channels](images/sales_channels.PNG)
 
 ### Assortment & Margin
 
-![Assortment & Margin](images/assortment_margin.png)
+![Assortment & Margin](images/assortment_margin.PNG)
 
 ### Double abc-analysis
 
-![Double abc - analysis](images/double_abc_analysis.png)
+![Double abc - analysis](images/double_abc_analysis.PNG)
 
 ### Seasonality & Write-offs
 
-![Seasonality & Write-offs](images/seasonality_writeoffs.png)
+![Seasonality & Write-offs](images/seasonality_writeoffs.PNG)
 
 ### Supplier Performance
 
-![Supplier Performance](images/supplier_performance.png)
+![Supplier Performance](images/supplier_performance.PNG)
 
 ## How to Run
 
