@@ -1,0 +1,6 @@
+﻿supplier_id,supplier_name,supplier_type,city,avg_delivery_days,payment_terms
+1,Ural Flowers Wholesale,local wholesaler,Yekaterinburg,1,postpayment
+2,Moscow Flower Hub,federal warehouse,Moscow,2,partial prepayment
+3,Ecuador Direct Import,direct import,Quito,5,prepayment
+4,Dutch Line Flowers,direct import,Amsterdam,4,prepayment
+5,Spring Tulip Farm,seasonal farm,Krasnodar,3,postpayment
