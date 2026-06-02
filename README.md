@@ -14,7 +14,7 @@ The project's goal is to determine which bouquets and sales channels are profita
 
 Данные являются синтетическими и были сгенерированы для учебного проекта.  
 Датасет смоделирован на основе типовых бизнес-процессов цветочного магазина: продажи, клиенты, букеты, состав букетов, поставщики, закупки и списания.
-Несмотря на то, что данные искусственные, структура данных, сезонность, логика ценообразования и списаний отражают специфику флористического бизнеса./
+Несмотря на то, что данные искусственные, структура данных, сезонность, логика ценообразования и списаний отражают специфику флористического бизнеса.
 
 The data is synthetic and was generated for a training project. 
 The dataset is modeled based on the typical business processes of a flower shop: sales, customers, bouquets, bouquet composition, suppliers, purchases, and write-offs.
