@@ -1,10 +1,13 @@
-# Flower Shop Analytics/ Анализ цветочного магазина
+# Flower Shop Analytics / Анализ цветочного магазина 
 
-SQL + Power BI проект по анализу продаж, маржинальности, сезонности, закупок и списаний цветочного магазина./SQL + Power BI project to analyze sales, margins, seasonality, purchases, and write-offs for a flower shop.
+SQL + Power BI проект по анализу продаж, маржинальности, сезонности, закупок и списаний цветочного магазина.
+
+SQL + Power BI project to analyze sales, margins, seasonality, purchases, and write-offs for a flower shop.
 
 ## Business Problem
 
-Цель проекта — определить, какие букеты и каналы продаж приносят прибыль, какие цветы чаще списываются, и как планировать закупки перед сезонными пиками спроса./
+Цель проекта — определить, какие букеты и каналы продаж приносят прибыль, какие цветы чаще списываются, и как планировать закупки перед сезонными пиками спроса.
+
 The project's goal is to determine which bouquets and sales channels are profitable, which flowers are most frequently written off, and how to plan purchases before seasonal peaks in demand.
 
 ## Dataset
@@ -28,11 +31,11 @@ The dataset is modeled based on the typical business processes of a flower shop:
 
 ## Project Structure
 
-- `data/` — source CSV files
-- `sql/` — SQL scripts
-- `results/` — exported SQL query results
-- `power_bi/` — Power BI dashboard file
-- `images/` — dashboard screenshots
+- `data/` - source CSV files
+- `sql/` - SQL scripts
+- `results/` - exported SQL query results
+- `power_bi/` - Power BI dashboard file
+- `images/` - dashboard screenshots
 
 ## SQL Analysis
 
@@ -60,75 +63,45 @@ Dashboard contains 6 pages:
 
 ## 1. Creating a tables
 
-## 2. Sales Analysis/Анализ продаж
+## 2. Sales Analysis / Анализ продаж
 
-Анализ продаж показал, что выручка и средний чек букетов в разные периоды отличается. Самая высокая выручка приходится на праздники 8 марта, свадебный сезон (в основном июнь), а также на предновогодний период. При этом средний чек в самый пиковый сезон - 8 марта, довольно низкий, в отличии от свадебного сезона. Это означает, что в разные сезонные периоды необходимо делать упор на подходящие по бюджету позиции.
-Также было выявлено, что самые популярные по выручке и количеству заказов букеты отличаются, что означает, что самые популярные позиции не всегда являются главными по денежному вкладу: часть букетов продаётся часто за счёт более доступной цены, а часть формирует выручку за счёт высокого среднего чека.
-Сравнение каналов продаж показывает различия между offline и online: каналы немного отличаются по количеству заказов, среднему чеку и доле в общей выручке. При этом доля offline продаж чуть больше чем online, из чего можно сделать вывод, что необходимо обращать внимание на оба этих канала продаж.
-Анализ отменённых заказов помогает определить, в какие месяцы и в каком канале выше риск потери продаж. Это важно для планирования загрузки администраторов, коммуникации с клиентами и контроля качества обработки заказов.
+Анализ продаж показал, что выручка и средний чек букетов в разные периоды отличается. Самая высокая выручка приходится на праздники 8 марта, свадебный сезон (в основном июнь), а также на предновогодний период. При этом средний чек в самый пиковый сезон - 8 марта, довольно низкий, в отличии от свадебного сезона. Это означает, что в разные сезонные периоды необходимо делать упор на подходящие по бюджету позиции. Также было выявлено, что самые популярные по выручке и количеству заказов букеты отличаются, что означает, что самые популярные позиции не всегда являются главными по денежному вкладу: часть букетов продаётся часто за счёт более доступной цены, а часть формирует выручку за счёт высокого среднего чека.
 
-The sales analysis showed that the revenue and the average receipt of bouquets in different periods is different. The highest revenue falls on the holidays of March 8, the wedding season (mainly June), and the New Year period. At the same time, the average check during the peak season, on March 8, is quite low, unlike the wedding season. This means that in different seasonal periods, it is necessary to focus on positions that are suitable for the budget.
-It was also revealed that the bouquets that are most popular in terms of revenue and number of orders differ, which means that the most popular items are not always the main ones in terms of monetary contribution: some bouquets are often sold at a more affordable price, and some generate revenue due to a high average receipt.
-A comparison of sales channels shows the differences between offline and online: the channels differ slightly in the number of orders, the average receipt, and the share of total revenue. At the same time, the share of offline sales is slightly higher than online, from which we can conclude that it is necessary to pay attention to both of these sales channels.
-The analysis of cancelled orders helps to determine in which months and in which channel the risk of loss of sales is higher. This is important for scheduling admin workload, communicating with customers, and quality control of order processing.
+Sales analysis has shown that the revenue and average check of bouquets differ in different periods. The highest revenue is observed during the holidays of March 8, the wedding season (mainly in June), and the pre-New Year period. However, the average check during the peak season of March 8 is relatively low compared to the wedding season. This indicates that different seasonal periods require a focus on budget-friendly products. It was also found that the most popular bouquets in terms of revenue and number of orders differ, which means that the most popular items are not always the most profitable: some bouquets are often sold due to their lower prices, while others generate revenue through higher average check sizes.
+
 
 ## 3. Margin Analysis
 
 Расчёт себестоимости букетов через состав и закупочные цены показал, что выручка сама по себе не отражает реальную прибыльность ассортимента. Некоторые букеты могут давать высокий объём продаж, но иметь слабую маржинальность из-за дорогого состава или низкой розничной цены.
-Анализ маржинальности по букетам позволяет выделить наиболее прибыльные позиции, на которые стоит сделать упор в продажах. Такие букеты дают бизнесу не только оборот, но и валовую прибыль.
-Анализ популярных, но низкомаржинальных букетов выявляет позиции, которые создают высокий поток заказов, но приносят ограниченную прибыль. Для таких букетов стоит проверить цену, состав, скидки и возможные замены дорогих компонентов.
-Высокомаржинальные, но редко продающиеся букеты могут быть перспективными для продвижения. Если спрос на них можно увеличить через витрину, online-канал или сезонные предложения, они могут стать дополнительным источником прибыли.
-Сравнение маржинальности по каналам продаж показывает, какой канал не только приносит выручку, но и обеспечивает более высокий финансовый результат.
+Анализ маржинальности по букетам позволяет выделить наиболее прибыльные позиции, на которые стоит сделать упор в продажах. Такие букеты дают бизнесу не только оборот, но и валовую прибыль. Анализ популярных, но низкомаржинальных букетов выявляет позиции, которые создают высокий поток заказов, но приносят ограниченную прибыль. Для таких букетов стоит проверить цену, состав, скидки и возможные замены дорогих компонентов.
 
-Calculating the cost of bouquets through the composition and purchase prices has shown that revenue alone does not reflect the real profitability of the assortment. Some bouquets may have high sales, but have low margins due to expensive ingredients or low retail prices.
-The margin analysis of bouquets allows you to identify the most profitable positions, which should be emphasized in sales. Such bouquets give the business not only turnover, but also gross profit.
-The analysis of popular but low-margin bouquets reveals positions that create a high flow of orders, but bring limited profits. For such bouquets, it is worth checking the price, composition, discounts and possible replacements of expensive components.
-High-margin but rarely sold bouquets can be promising for promotion. If the demand for them can be increased through a showcase, an online channel, or seasonal offers, they can become an additional source of profit.
-A comparison of marginality across sales channels shows which channel not only generates revenue, but also provides a higher financial result.
+
+The calculation of the cost of bouquets based on their composition and purchase prices showed that revenue alone does not reflect the actual profitability of the assortment. Some bouquets may have a high sales volume but low margins due to their expensive composition or low retail price.
+Analyzing the margins of individual bouquets allows you to identify the most profitable items that should be prioritized in your sales strategy. These bouquets not only generate revenue but also contribute to the overall profitability of your business. Additionally, analyzing popular but low-margin bouquets can help you identify items that generate a high volume of orders but offer limited profit potential. For such bouquets, it is worth checking the price, composition, discounts, and possible replacements of expensive components.
+
 
 ## 4. Supplier Analysis
 
-Анализ закупок по поставщикам показывает, как распределяются объёмы закупки между поставщиками. Если значительная доля закупок приходится на одного поставщика, это создаёт зависимость бизнеса от его стабильности, сроков доставки и качества продукции.
-Сравнение средней закупочной цены по поставщикам и цветам показывает, что один и тот же цветок может быть выгоднее закупать у разных поставщиков. Поэтому закупочную стратегию лучше строить не только на уровне поставщика в целом, но и на уровне конкретных цветочных позиций.
-Самый дешёвый поставщик не всегда является самым выгодным. Если у поставщика низкая цена, но высокая доля списаний, фактическая выгода может снижаться из-за потерь качества цветов.
-Итоговая оценка поставщиков учитывает сразу несколько факторов: закупочную цену, объём поставок, ассортимент, сроки доставки и потери от списаний. Такой подход позволяет принимать более взвешенные решения, чем простой выбор самого дешёвого поставщика.
+Сравнение средней закупочной цены по поставщикам и цветам показывает, что один и тот же цветок может быть выгоднее закупать у разных поставщиков.
+Самый дешёвый поставщик не всегда является самым выгодным. Если у поставщика низкая цена, но высокая доля списаний, фактическая выгода может снижаться из-за потерь качества цветов. Итоговая оценка поставщиков учитывает сразу несколько факторов: закупочную цену, объём поставок, ассортимент, сроки доставки и потери от списаний. 
 
-An analysis of purchases by supplier shows how the purchase volumes are distributed among suppliers. If a significant proportion of purchases are made by a single supplier, this creates a dependence of the business on its stability, delivery time and product quality.
-A comparison of the average purchase price by suppliers and flowers shows that it may be more profitable to purchase the same flower from different suppliers. Therefore, it is better to build a purchasing strategy not only at the level of the supplier as a whole, but also at the level of specific flower items.
-The cheapest supplier is not always the most profitable. If the supplier has a low price but a high percentage of write-offs, the actual benefit may decrease due to loss of color quality.
-The final supplier assessment takes into account several factors at once: the purchase price, the volume of supplies, the assortment, the delivery time and losses from write-offs. This approach allows you to make more informed decisions than simply choosing the cheapest supplier.
+Comparing the average purchase price by supplier and color shows that it may be more profitable to purchase the same flower from different suppliers.
+The cheapest supplier is not always the most profitable. If a supplier has a low price but a high percentage of write-offs, the actual profit may decrease due to the loss of flower quality. The final supplier rating takes into account several factors: purchase price, supply volume, assortment, delivery time, and write-off losses.
 
 ## 5. Write-off Analysis
 
 Анализ списаний показывает, какие самый частые причины списаний цветов, в какие периоды списания происходят чаще всего.
-Наибольший объём списаний приходится на цветы и категории с самым непродолжительным сроком хранения. Важно учитывать это и обеспечивать правильный уход за каждыми позициями.
-Анализ причин списаний показывает основные источники потерь: увядание, излишки после праздников, плохое качество поставки, поломки или истечение срока хранения. Эти причины помогают понять решаемые и нерешаемые причины списаний.
-Доля списаний от закупленного объёма является более полезной метрикой, чем абсолютное количество списанных стеблей. Цветок может часто списываться просто потому, что его много закупают, но высокий write-off rate показывает реальный риск позиции.
 Оценка денежных потерь от списаний показывает, как списания снижают валовую прибыль магазина. Особенно важно контролировать списания во время праздничных пиков, когда закупки резко увеличиваются, а непроданные остатки быстро теряют товарный вид.
 
-The analysis of write-offs shows which are the most common reasons for flower write-offs, and during which periods write-offs occur most often.
-The largest volume of write-offs is for flowers and categories with the shortest shelf life. It is important to take this into account and ensure proper care for each position.
-An analysis of the reasons for write-offs shows the main sources of losses: wilting, surpluses after the holidays, poor quality of supply, breakdowns or expiration of shelf life. These reasons help to understand the solvable and unsolvable reasons for write-offs.
-The percentage of write-offs from the purchased volume is a more useful metric than the absolute number of stems written off. A flower can often be written off simply because it is bought a lot, but a high write-off rate shows the real risk of the position.
-Estimating monetary losses from write-offs shows how write-offs reduce the store's gross profit. It is especially important to control write-offs during holiday peaks, when purchases increase dramatically and unsold balances quickly lose their marketability.
+The analysis of write-offs shows what are the most frequent causes of write-offs of flowers, in what periods write-offs occur most often.
+The assessment of monetary losses from write-offs shows how write-offs reduce the gross profit of the store. It is especially important to control write-offs during holiday peaks, when purchases increase dramatically, and unsold stocks quickly lose their marketable appearance.
 
 ## 6. Seasonality Analysis
 
-Анализ сезонности подтверждает, что спрос во флористике распределён неравномерно в течение года. Продажи усиливаются в периоды праздников и событий, когда цветы покупают как подарок или для оформления мероприятий.
-Сезонный индекс помогает определить месяцы, которые значительно сильнее или слабее среднего уровня продаж. Месяцы с индексом выше 1 требуют усиленного планирования закупок, персонала и обработки заказов.
-Сравнение 2023 и 2024 годов позволяет оценить динамику развития магазина: рост выручки, изменение количества заказов и влияние online-канала. Это помогает отделить сезонные всплески от реального роста бизнеса.
-Анализ праздничных периодов показывает, какие события формируют основные пики спроса. Для таких периодов важно заранее планировать закупки, так как ошибка в объёме может привести либо к упущенным продажам, либо к высоким списаниям после праздника.
-Также был произведен анализ спросу в течении недели, так как день недели также влияет на количество проданных товаров. Было выявлено, что основными ударными днями являются воскресенье и суббота, на это стоит обратить внимание при составлении расписания работы и распределения нагрузки на флористов.
-При сравнении разных периодов года было выявлено, что разные цветы имеют разную сезонность. Одни позиции продаются стабильно круглый год, другие требуют сезонного подхода к закупкам и продвижению.
-То же касается и определенных букетов, некоторые позиции имеет больший спрос в различные праздники, что тоже необходимо учитывать при составлении коллекции.
+Анализ сезонности подтверждает, что спрос во флористике распределён неравномерно в течение года. Продажи усиливаются в периоды праздников и событий, когда цветы покупают как подарок или для оформления мероприятий. Сезонный индекс помогает определить месяцы, которые значительно сильнее или слабее среднего уровня продаж. Месяцы с индексом выше 1 требуют усиленного планирования закупок, персонала и обработки заказов.
 
-The analysis of seasonality confirms that the demand in floristry is unevenly distributed throughout the year. Sales increase during holidays and events, when flowers are bought as gifts or to decorate events.
-The seasonal index helps you identify months that are significantly stronger or weaker than the average sales level. Months with an index above 1 require enhanced procurement planning, staffing, and order processing.
-Comparing 2023 and 2024 allows us to assess the dynamics of the store's development: revenue growth, changes in the number of orders and the impact of the online channel. This helps to separate seasonal spikes from real business growth.
-The analysis of the holiday periods shows which events form the main peaks of demand. For such periods, it is important to plan purchases in advance, as an error in volume can lead either to missed sales or to high write-offs after the holiday.
-An analysis of demand during the week was also performed, as the day of the week also affects the number of goods sold. It was revealed that the main impact days are Sunday and Saturday, it is worth paying attention to this when drawing up a work schedule and distributing the workload to florists.
-When comparing different periods of the year, it was found that different flowers have different seasonality. Some items are sold consistently all year round, while others require a seasonal approach to procurement and promotion.
-The same applies to certain bouquets, some items are in greater demand on various holidays, which also needs to be taken into account when compiling a collection.
+
+Seasonality analysis confirms that demand in the floral industry is unevenly distributed throughout the year. Sales increase during holidays and events, when flowers are purchased as gifts or for event decoration. The seasonal index helps identify months that are significantly stronger or weaker than the average sales level. Months with an index above 1 require enhanced planning for procurement, staffing, and order processing.
 
 ## 7. Double ABC Analysis
 
