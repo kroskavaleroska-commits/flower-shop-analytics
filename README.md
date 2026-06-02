@@ -106,43 +106,43 @@ Seasonality analysis confirms that demand in the floral industry is unevenly dis
 ## 7. Double ABC Analysis
 
 В данном ABC - анализе первая буква, это объем продаж, а вторая - выручка.
-# AA Высокая выручка и высокий объём продаж.
+### AA Высокая выручка и высокий объём продаж.
 Ядро ассортимента. Эти букеты одновременно часто покупают и они дают основную выручку. Их нужно всегда держать в наличии, контролировать остатки цветов для их сборки и использовать как основу планирования закупок.
-# AB Высокий объем продаж и средняя выручка.
+### AB Высокий объем продаж и средняя выручка.
 Массовые популярные позиции с относительно невысоким чеком. Они создают поток заказов, но вклад в выручку не максимальный. Нужно проверить маржинальность: если маржа низкая, можно пересмотреть цену или состав букета.
-# AC Высокий объем продаж и низкая выручка.
+### AC Высокий объем продаж и низкая выручка.
 Очень популярные позиции, который приносят мало дохода. Потенциально проблемная зона, в которой стоит пересмотреть себестоимость букетов или поднять цену
-# ВА Средний объем продаж и высокая выручка.
+### ВА Средний объем продаж и высокая выручка.
 Сильные позиции, которые приносят хороший доход, но не особо сильно популярные. Скорее всего позиции с высоким чеком. Стоит всегда поддерживать их в ассортименте и попробовать продвигать этот товар в online
-# ВВ Средний объем продаж и средняя выручка.
+### ВВ Средний объем продаж и средняя выручка.
 Стабильные позиции, которые дают хороший доход. Можно держать в ассортименте но без избытка.
-# ВС Средний объем продаж и низкая выручка.
+### ВС Средний объем продаж и низкая выручка.
 Продаются в умеренном количестве но почти не влияют на выручку.Стоит также пересмотреть маржинальность этих товаров или не делать на них акцент при закупке товара, иметь в виду как дополнительные позиции.
-# СА Низкий объем продаж и высокая выручка.
+### СА Низкий объем продаж и высокая выручка.
 Премиум сегмент или свадебные букеты. Покупаются редко, но приносят значительную выручку. Их не обязательно держать в большом объёме, но важно сохранять как имиджевый/премиальный ассортимент и предлагать под свадьбы или торжественные события.
-# СВ Низкий объем продаж и средняя выручка.
+### СВ Низкий объем продаж и средняя выручка.
 Нишевые позиции. Продаются редко, но дают средний вклад в выручку, вероятно за счёт более высокой цены. Стоит проверить, в какие периоды они продаются: возможно, это сезонные или событийные букеты.
-# СС Низкий объем продаж и низкая выручка.
+### СС Низкий объем продаж и низкая выручка.
 Самое слабое звено в ассортименте. Стоит обратить внимание на них внимание, возможно удалить или перевести в разряд позиций только под заказ.
 
 In this ABC analysis, the first letter is sales volume, and the second is revenue.
-# AA High revenue and high sales volume.
+### AA High revenue and high sales volume.
 The core of the product range. These bouquets are often bought at the same time and they provide the main revenue. They should always be kept in stock, the remaining flowers should be monitored for their assembly and used as the basis for purchase planning.
-# AB High sales volume and average revenue.
+### AB High sales volume and average revenue.
 Massive popular positions with a relatively low check. They create a flow of orders, but the contribution to revenue is not the maximum. It is necessary to check the marginality: if the margin is low, you can review the price or the composition of the bouquet.
-# AC High sales volume and low revenue.
+### AC High sales volume and low revenue.
 Very popular positions that generate little income. A potentially problematic area in which it is worth reviewing the cost of bouquets or raising the price
-# VA Average sales and high revenue.
+### VA Average sales and high revenue.
 Strong positions that generate good income, but are not very popular. Most likely positions with a high check. You should always keep them in stock and try to promote this product online.
-#VV Average sales and average revenue.
+### VV Average sales and average revenue.
 Stable positions that provide good income. You can keep it in stock but without excess.
-# VC Average sales and low revenue.
+### VC Average sales and low revenue.
 They are sold in moderate quantities but have almost no effect on revenue.It is also worth reviewing the marginality of these products or not focusing on them when purchasing goods, keeping in mind as additional items.
-# CA Low sales volume and high revenue.
+### CA Low sales volume and high revenue.
 Premium segment or wedding bouquets. They are rarely bought, but they bring significant revenue. It is not necessary to keep them in large quantities, but it is important to keep them as an premium assortment and offer them for weddings or special events.
-# CV Low sales volume and average revenue.
+### CV Low sales volume and average revenue.
 Niche positions. They are rarely sold, but they make an average contribution to revenue, probably due to the higher price. It is worth checking in which periods they are sold: perhaps these are seasonal or event bouquets.
-# CC Low sales and low revenue. The weakest link in the product range. It is worth paying attention to them, it is possible to remove or transfer them to the category of items only for the order.
+### CC Low sales and low revenue. The weakest link in the product range. It is worth paying attention to them, it is possible to remove or transfer them to the category of items only for the order.
 
 ## Power BI Dashboard
 
