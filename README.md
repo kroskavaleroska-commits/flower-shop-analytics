@@ -142,7 +142,8 @@ They are sold in moderate quantities but have almost no effect on revenue.It is 
 Premium segment or wedding bouquets. They are rarely bought, but they bring significant revenue. It is not necessary to keep them in large quantities, but it is important to keep them as an premium assortment and offer them for weddings or special events.
 ### CV Low sales volume and average revenue.
 Niche positions. They are rarely sold, but they make an average contribution to revenue, probably due to the higher price. It is worth checking in which periods they are sold: perhaps these are seasonal or event bouquets.
-### CC Low sales and low revenue. The weakest link in the product range. It is worth paying attention to them, it is possible to remove or transfer them to the category of items only for the order.
+### CC Low sales and low revenue. 
+The weakest link in the product range. It is worth paying attention to them, it is possible to remove or transfer them to the category of items only for the order.
 
 ## Power BI Dashboard
 
